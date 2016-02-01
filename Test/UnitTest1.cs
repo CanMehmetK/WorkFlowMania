@@ -1,6 +1,7 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using FlowMyFLow;
+
+
 
 namespace Test
 {
@@ -10,7 +11,7 @@ namespace Test
         [TestMethod]
         public void TestMethod1()
         {
-            Basla b = new Basla();
+            //Basla b = new Basla();
             
         }
     }

@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace WFBase
 {
-    public abstract class BaseEleman
-    {
-        public Guid Id { get; set; }
-        public ElemanTip Tip { get; set; }
-        public dynamic userindeCalisilanNesne { get; set; }
-    }
+    //public abstract class BaseEleman
+    //{
+    //    //public Guid Id { get; set; }
+    //    public ElemanTip Tip { get; set; }
+    //    public dynamic userindeCalisilanNesne { get; set; }
+    //}
 }

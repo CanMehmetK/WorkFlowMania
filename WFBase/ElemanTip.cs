@@ -1,8 +1,8 @@
 ﻿namespace WFBase
 {
-    public enum ElemanTip
-    {
-        Basla,
-        Bitir,
-    }
+    //public enum ElemanTip
+    //{
+    //    Basla,
+    //    Bitir,
+    //}
 }

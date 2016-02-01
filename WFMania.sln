@@ -11,6 +11,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlowMyFLow", "base\FlowMyFL
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataMania", "DataMania", "{8E21690B-7A30-4A45-8CC3-133A7D64138F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlowMania.Core", "FlowMania.Core\FlowMania.Core.csproj", "{F90B64B4-A5FD-4EA7-9F49-F610C8F92A3A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{D73D0757-D3FD-490F-88EE-5749D17E8A50}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlowMania", "UI\FlowMania\FlowMania.csproj", "{1B0BD572-B0CB-4A3E-B237-155A2218E811}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,8 +35,19 @@ Global
 		{536F8A77-BAD3-4912-B806-DA4B74B30954}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{536F8A77-BAD3-4912-B806-DA4B74B30954}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{536F8A77-BAD3-4912-B806-DA4B74B30954}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F90B64B4-A5FD-4EA7-9F49-F610C8F92A3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F90B64B4-A5FD-4EA7-9F49-F610C8F92A3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F90B64B4-A5FD-4EA7-9F49-F610C8F92A3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F90B64B4-A5FD-4EA7-9F49-F610C8F92A3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B0BD572-B0CB-4A3E-B237-155A2218E811}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B0BD572-B0CB-4A3E-B237-155A2218E811}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B0BD572-B0CB-4A3E-B237-155A2218E811}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B0BD572-B0CB-4A3E-B237-155A2218E811}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1B0BD572-B0CB-4A3E-B237-155A2218E811} = {D73D0757-D3FD-490F-88EE-5749D17E8A50}
 	EndGlobalSection
 EndGlobal

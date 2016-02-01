@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace WFBase
 {
-    public class ActionBase : BaseEleman
-    {
+    //public class ActionBase : BaseEleman
+    //{
         
-        public ActionBase()
-        {
-            Id = Guid.NewGuid();
-        }
-    }
+    //    public ActionBase()
+    //    {
+    //        //Id = Guid.NewGuid();
+    //    }
+    //}
 }

@@ -7,12 +7,12 @@ using System.Threading.Tasks;
 
 namespace WFBase
 {
-    public static class Extensions
-    {
-        public static string toJson(this BaseEleman eleman)
-        {
-            string output = JsonConvert.SerializeObject(eleman);
-            return output;
-        }
-    }
+    //public static class Extensions
+    //{
+    //    public static string toJson(this BaseEleman eleman)
+    //    {
+    //        string output = JsonConvert.SerializeObject(eleman);
+    //        return output;
+    //    }
+    //}
 }
